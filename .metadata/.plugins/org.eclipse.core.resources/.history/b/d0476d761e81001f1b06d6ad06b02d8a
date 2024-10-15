@@ -1,0 +1,80 @@
+package br.com.fiap.model;
+
+public class Exoplaneta {
+
+	private String nome;
+	private String massa; // Massa em Júpiter
+	private String periodoOrbital; // Período orbital em dias
+	private String temperatura; // Temperatura em Kelvin
+	private String distancia; // Distância da Terra em anos-luz
+	private String tipo; // Tipo de exoplaneta
+
+	public Exoplaneta() {
+		super();
+	}
+
+	public Exoplaneta(String nome, String massa, String periodoOrbital, String temperatura, String distancia,
+			String tipo) {
+		super();
+		this.nome = nome;
+		this.massa = massa;
+		this.periodoOrbital = periodoOrbital;
+		this.temperatura = temperatura;
+		this.distancia = distancia;
+		this.tipo = tipo;
+	}
+
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getMassa() {
+		return massa;
+	}
+
+	public void setMassa(String massa) {
+		this.massa = massa;
+	}
+
+	public String getPeriodoOrbital() {
+		return periodoOrbital;
+	}
+
+	public void setPeriodoOrbital(String periodoOrbital) {
+		this.periodoOrbital = periodoOrbital;
+	}
+
+	public String getTemperatura() {
+		return temperatura;
+	}
+
+	public void setTemperatura(String temperatura) {
+		this.temperatura = temperatura;
+	}
+
+	public String getDistancia() {
+		return distancia;
+	}
+
+	public void setDistancia(String distancia) {
+		this.distancia = distancia;
+	}
+
+	public String getTipo() {
+		return tipo;
+	}
+
+	public void setTipo(String tipo) {
+		this.tipo = tipo;
+	}
+
+	@Override
+	public String toString() {
+		return "Exoplaneta [nome=" + nome + ", massa=" + massa + ", periodoOrbital=" + periodoOrbital + ", temperatura="
+				+ temperatura + ", distancia=" + distancia + ", tipo=" + tipo + "]";
+	}
+}
