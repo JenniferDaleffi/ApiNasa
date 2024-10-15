@@ -1,4 +1,9 @@
-# README - Exoplaneta Search Application
+# Exoplaneta Search Application
+<p align="center">
+  <a href="https://icons8.com.br/icon/13679/java">
+    <img src="https://img.icons8.com/?size=100&id=13679&format=png&color=000000" />
+  </a>
+</p>
 
 ## Descrição
 
